@@ -1,0 +1,36 @@
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AddRazorSupportForMvc>true</AddRazorSupportForMvc>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\AzarPetroFarayand\AzarPetroModule\AzarPetroModule.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="Views\SendEmail\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\SendEmail\SelectTemplate.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\SendEmail\Success.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\SendEmail\Users.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\SentEmail\Index.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\SentEmail\Sents.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\Components\HorizontalTable\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\Components\Paging\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\Components\PrintDetail\Default.cshtml" />
+    <_ContentIncludedByDefault Remove="Views\Shared\Components\RichText\Default.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers" />
+    <Folder Include="Model" />
+    <Folder Include="Service" />
+  </ItemGroup>
+
+
+</Project>
